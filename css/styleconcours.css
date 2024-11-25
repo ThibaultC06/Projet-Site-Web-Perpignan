@@ -101,6 +101,6 @@ aside{
 	
 	
 	aside {
-		flex-direction: column;
+        margin-top: 900px;
     }
 }
