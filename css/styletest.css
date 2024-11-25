@@ -75,7 +75,7 @@ margin-top: -8px;
 font-size: 28px;
  }
 @media screen and (max-width: 600px) {
-.section{display: flex-none}
+section{display: flex-none}
 .ddc{
 	font-size: 18px;
 	margin-right: 5%;
