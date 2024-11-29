@@ -1,0 +1,64 @@
+body{   background-color: #FEF2D8;}
+header {
+    background: #000000;
+    width: 100%;
+    margin: 10px auto;
+	height: 80px;
+}
+#logo {
+    display: flex;
+    vertical-align: middle;
+    font-size: 30%;
+    margin-right: 5%;
+    color: #ffe4c4;
+	font-weight:bold;
+}
+
+#logo img {
+    width: 100px;
+    vertical-align: middle;
+    margin-right: 20px;
+    height: 80px;
+}
+#Images_Projects
+{
+	padding-top: 3%;
+	padding-bottom: 2%;
+	margin-left: 35%;
+}
+
+#Images_Projects figure
+{
+	position: relative;
+	margin: auto;
+	margin-bottom: 2%;     
+}
+
+
+#Images_Projects figure img
+{
+	width: 19vw;
+	vertical-align: middle;
+}
+
+#Images_Projects figure figcaption
+{
+	position: absolute;
+	width: 30%;
+	height: 15%;
+	bottom: 0;
+	background-color: #99979780;
+}
+
+
+@media screen and (max-width: 600px) {
+
+.Images_Projects{ 
+	padding-top: 7%;
+    padding-bottom: 5%;
+	flex-direction: column;
+	margin-left: 145px;
+}
+
+
+}
